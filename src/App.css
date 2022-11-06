@@ -1,0 +1,446 @@
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:1rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+
+  
+
+  
+}
+#hello{
+  display:none;
+}
+.profile{
+  display: flex;
+  height:80px;
+  align-items: center;
+  justify-content: space-around;
+  margin:1rem 2rem;
+  border:1px solid black;
+  padding:0.2rem 0.5rem;
+  border-radius: 6px;
+  
+
+}
+.profile>img{
+  border-radius: 8px;
+  object-fit: contain;
+  
+}
+.Addons{
+  display:flex;
+  height:5rem;
+  width:8rem;
+  position: fixed;
+  bottom: 10rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  background-color: lightgreen;
+  padding:0 1rem;
+  flex-direction: column;
+}
+.imageupload{
+  display: flex;
+  border-radius: 4px;
+  padding:5px 5px;
+  margin-left:1rem;
+  margin-right: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  border:1px solid black;
+  background-color: whitesmoke;
+  position: sticky;
+  top:0;
+  z-index: 999;
+}
+.zoomimage{
+  width:300px;
+  display: flex;
+  margin:1rem auto;
+  align-items: center;
+  justify-content: center;
+  z-index:101;
+  position:fixed;
+  top:20%;
+  left:40%;
+  border-radius: 6px;
+
+}
+.dark{
+  background-color: #333;
+  color:#fff;
+}
+.light{
+  background-color: whitesmoke;
+  color:black;
+
+}
+
+.Addons>button{
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background-color: aqua;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+}
+
+.span{
+  display: flex;
+  align-items: center;
+
+}
+.hovereffect{
+  color:red;
+  position:absolute;
+  right: 8.8rem;
+  border:none;
+  bottom: 3.6rem;
+  height:1.2rem;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+  background-color: rgb(228, 243, 255);
+
+}
+.copyhover{
+  color:red;
+  border-radius: 5px;
+  position:absolute;
+  right: 3rem;
+  border:none;
+  bottom: 3.6rem;
+  height:1.2rem;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  border-color: none;
+  background-color: rgb(228, 243, 255);
+
+}
+.picture{
+  width:110px;
+  height: 110px;
+  object-fit: contain;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor:pointer;
+  box-shadow: 0 5px whitesmoke;
+}
+.upload{
+  background-color: aqua;
+  margin-right: 1rem;
+  border-radius: 2px;
+  flex-direction: column;
+  width:4rem;
+  color: black;
+  font-size: 0.9rem;
+}
+.span>h5{
+  color:red;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+.user-tag{
+  border:1px solid red;
+  position: relative;
+  border-radius: 6px;
+  width:540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.2rem;
+  height:80px;
+  margin-top: 1rem;
+  padding:0 0.3rem;
+  
+  
+
+}
+
+.user-tag>h3{
+  border: 1px solid black;
+  padding:4px 6px;
+  border-radius: 4px;
+
+}
+.btn-delete{
+  margin-top: 0.3rem;
+  background-color: aqua;
+  width:3.2rem;
+  height:1.4rem;
+  border:none;
+  display:flex;
+  align-items: center;
+  cursor:pointer;
+  border-radius: 3px;
+  justify-content: center;
+
+}
+.togglebtn{
+  background-color: rgb(235, 235, 139);
+  border:none;
+  border-radius: 3px;
+  height:2rem;
+  margin-left: 1rem;
+  position: fixed;
+  margin-top: 0.5rem;
+  z-index: 102;
+  cursor: pointer;
+
+
+}
+.togglebtn:hover{
+  color: #fff;
+  background-color: #000;
+}
+.uploadtag{
+  display: flex;
+  width:10rem;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.user-tag>p{
+  border: 1px solid black;
+  padding:4px 6px;
+  border-radius: 4px;
+
+}
+
+.btn{
+  background-color: aqua;
+  width:5rem;
+  height:1.2rem;
+  border:none;
+  cursor:pointer;
+  border-radius: 3px;
+  
+  
+}
+.search-btn{
+  height:1.2rem;
+  width:12rem;
+  text-align: center;
+  
+
+}
+.Addform{
+  display: flex;
+  align-items: center;
+  height:3rem;
+  justify-content: center;
+  border:1px solid black;
+  border-radius: 3px;
+  padding: 0 1rem;
+
+
+}
+.user-tag>img{
+  width:2.6rem;
+  border-radius:6px;
+  object-fit: contain;
+}
+.items{
+  margin-left: 1rem;
+  display: flex;
+  gap:0.8rem;
+  align-items: center;
+}
+.input-box{
+  height:1.2rem;
+  
+}
+.user-tag>p:hover{
+  color:white;
+  background-color: #000;
+  cursor:pointer;
+
+}
+.user-tag>h3:hover{
+  color:white;
+  background-color: #000;
+  cursor:pointer;
+
+}
+.btn-delete:hover{
+  background-color: rgb(126, 187, 187);
+}
+
+@media screen  and (max-width:750px){
+  .items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:0.5rem;
+
+  }
+ .zoomimage{
+  position: absolute;
+  right:5rem;
+  bottom: 2rem;
+ }
+  .togglebtn{
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .input-box{
+    height:1rem;
+    width:4rem;
+
+  }
+  .search-btn{
+    width:4rem;
+  }
+  
+}
+@media screen  and (max-width:720px){
+  .user-tag{
+    width:400px;
+    padding:0 0.8rem;
+   
+  }
+  .imageupload{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .user-tag>p{
+    width:40%;
+    font-size: 0.7rem;
+    
+  }
+  .user-tag>h3{
+    width:40%;
+    font-size: 0.7rem;
+  }
+  .user-btn{
+    width:40%;
+    font-size: 0.7rem;
+  }
+  .hovereffect{
+    right: 6rem;
+  }
+  .picture{
+    margin-right: 1rem;
+  }
+
+}
+
+@media screen  and (max-width:490px){
+  .items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:0.2rem;
+
+  }
+  .search-btn{
+    width:3rem;
+  }
+  .Addform{
+    width:90%;
+    display: flex;
+    align-items: center;
+    padding:0;
+  }
+  .btn{
+    width:3rem;
+  }
+  .upload{
+    margin-bottom:0.4rem;
+  }
+   .user-tag{
+    width:370px;
+    margin-left: 0.5rem;
+    margin-right:0.5rem;
+   }
+   .user-tag>p{
+    width:35%;
+    font-size: 0.6rem;
+   }
+   .user-tag>h3{
+    width:35%;
+    font-size: 0.6rem;
+
+   }
+   .user-btn{
+    width:35%;
+    font-size: 0.5rem;
+   }
+   .picture{
+    width:80px;
+    object-fit: contain;
+   }
+   .user-tag{
+    padding:0 0.5rem;
+   }
+  .input-box{
+    height:1rem;
+    width:4rem;
+
+  }
+  .search-btn{
+    width:4rem;
+  }
+  
+}
+@media screen  and (max-width:420px){
+  .user-tag>p{
+    width:30%;
+    font-size: 0.5rem;
+   }
+   .user-tag{
+    width:340px;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+   }
+   .user-tag>h3{
+    width:30%;
+    font-size: 0.5rem;
+
+   }
+   .upload{
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    text-align: center;
+   }
+   .user-btn{
+    width:30%;
+    font-size: 0.5rem;
+   }
+   .imageupload{
+    padding:0 0.3rem;
+
+
+   }
+   .picture{
+    width:60px;
+    object-fit: contain;
+   }
+   .user-tag{
+    padding:0 0.4rem;
+   }
+
+}
+@media screen  and (max-width:390px){
+  .imageupload{
+    width:100%;
+    padding:0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+

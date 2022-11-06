@@ -1,0 +1,30 @@
+.Addons{
+    display:flex;
+    height:5rem;
+    width:8rem;
+    position: fixed;
+    bottom: 17rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: center;
+    background-color: lightgreen;
+    padding:0 1rem;
+    flex-direction: column;
+    z-index:100;
+}
+.Addons>button{
+    margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 3px;
+    border: none;
+}
+.upload{
+    background-color: aqua;
+    margin-right: 1rem;
+    border:1px solid black;
+    border-radius: 4px;
+    flex-direction: column;
+    width:4rem;
+}

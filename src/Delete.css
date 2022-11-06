@@ -1,0 +1,21 @@
+.Deleteons{
+    display:flex;
+    height:5rem;
+    width:8rem;
+    position: fixed;
+    bottom: 17rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    justify-content: center;
+    background-color: lightgreen;
+    padding:0 1rem;
+    flex-direction: column;
+}
+.Addons>button{
+    margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 3px;
+    border: none;
+}

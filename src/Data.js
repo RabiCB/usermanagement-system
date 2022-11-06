@@ -1,0 +1,33 @@
+
+export const data=[
+    {
+        id:1,
+        name:'grelish',
+        contact:'9848011663',
+        img:'https://images.pexels.com/photos/1619716/pexels-photo-1619716.jpeg?auto=compress&cs=tinysrgb&w=400'
+    },
+    {
+        id:2,
+        name:'Bell',
+        contact:'+9788885757',
+        img:'https://images.pexels.com/photos/1619716/pexels-photo-1619716.jpeg?auto=compress&cs=tinysrgb&w=400'
+    },
+    {
+        id:3,
+        name:'linyi',
+        contact:'9848011663',
+        img:'https://images.pexels.com/photos/13850240/pexels-photo-13850240.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load'
+    },
+    {
+        id:4,
+        name:'phoden',
+        contact:'9845678900',
+        img:'https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?auto=compress&cs=tinysrgb&w=400'
+    },
+    {
+        id:5,
+        name:'philip',
+        contact:'+8166659903',
+        img:"https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?auto=compress&cs=tinysrgb&w=400"
+    }
+]
